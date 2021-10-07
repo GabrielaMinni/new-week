@@ -14,3 +14,10 @@ meses.unshift("verano")
 meses.push("otoño")
 
 console.log(meses)
+
+// d. Quitar un elemento del principio y del final del array (utilizar shift y pop).
+
+meses.pop()
+meses.shift()
+
+console.log(meses)
