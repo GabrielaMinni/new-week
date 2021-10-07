@@ -11,3 +11,10 @@ var fruits = "limon, pera y mandarina";
 var fruits1 = fruits.substring (0,5);
 
 console.log(fruits1)
+
+/* c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring). */
+
+var fruits2 = "naranja, banana, uva"
+var fruits3 = fruits2.substr (-3)
+
+console.log(fruits3)
