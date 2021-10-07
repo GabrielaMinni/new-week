@@ -15,6 +15,14 @@ console.log(fruits1)
 /* c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring). */
 
 var fruits2 = "naranja, banana, uva"
-var fruits3 = fruits2.substr (-3)
+var fruits3 = fruits2.substring (-3)
 
 console.log(fruits3)
+
+/* d. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).*/
+
+var fruits4 = "sandía, mango, kiwi"
+var fruits5 = fruits4.substring(0,1).toUpperCase() + fruits4.substring(1,19).toLowerCase()
+
+console.log(fruits5)
+
