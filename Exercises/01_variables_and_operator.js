@@ -1,7 +1,7 @@
-// b. Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
+/* c. Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado de la suma en una 3er variable (utilizar length)*/
 
-var saludo = "Hola Pablo";
-var pregunta = " ¿Cómo estás?";
-var frase = saludo + pregunta;
+let text1 = "Hola mundo";
+let text2 = "¿Qué tal?"; 
+let text3 = text1 + text2;
 
-console.log(frase)
+console.log(text3.length)
