@@ -26,5 +26,8 @@ console.log(meses)
 
 console.log(meses.reverse());
 
+// f. Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
+
+console.log(meses.join(" - "));
 
 
