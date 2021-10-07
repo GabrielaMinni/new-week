@@ -26,3 +26,9 @@ var fruits5 = fruits4.substring(0,1).toUpperCase() + fruits4.substring(1,19).toL
 
 console.log(fruits5)
 
+/* e.Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).*/
+
+var time = "El dia está soleado"
+var time1 = time.indexOf(" ")
+
+console.log(time1)
