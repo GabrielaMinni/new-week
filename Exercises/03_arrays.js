@@ -21,3 +21,10 @@ meses.pop()
 meses.shift()
 
 console.log(meses)
+
+// e. Invertir el orden del array (utilizar reverse).
+
+console.log(meses.reverse());
+
+
+
