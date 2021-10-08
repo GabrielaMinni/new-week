@@ -5,3 +5,8 @@ for (let i = 0; i < palabras.length; i++) {
     alert(palabras[i]);
 }
 
+/* b.Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta por cada palabra modificada.*/
+
+for (let i = 0; i < palabras.length; i++) {
+    alert(palabras[i].substring(0,1).toUpperCase()+palabras[i].substring(1).toLowerCase());
+}
