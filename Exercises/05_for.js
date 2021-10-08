@@ -10,3 +10,13 @@ for (let i = 0; i < palabras.length; i++) {
 for (let i = 0; i < palabras.length; i++) {
     alert(palabras[i].substring(0,1).toUpperCase()+palabras[i].substring(1).toLowerCase());
 }
+
+/* c. Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a) recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence. Al final mostrar una única alerta con la cadena completa. */
+
+var sentence = " ";
+
+for (let i = 0; i < palabras.length; i++) {
+    sentence += palabras[i]+" ";
+}
+
+alert(sentence);
